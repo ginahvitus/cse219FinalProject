@@ -1,0 +1,40 @@
+#content {
+    position:absolute;
+    font-family: 'Indie Flower', cursive;
+    left:10px;
+    top:10px;
+    width:1000px;
+}
+
+#slideshow_title, #slide_img, #slide_caption, #slideshow_controls {
+    position:absolute;
+    left:0px;  
+    width:1000px;
+    padding-left: 10px;
+    padding-right: 10px;  
+}
+
+#slideshow_title {
+    top:0px;
+    height:80px;
+    background-color:rgb(105, 90, 195);
+    font-size: 48pt;
+    font-weight: bold;
+}
+
+#slide_img {
+    top:80px;
+}
+
+#slide_caption {
+    top:580px;
+    font-size:24pt;
+    text-align:center;
+    background-color:rgb(150,190,250);
+}
+
+#slideshow_controls {
+    top:620px;
+    text-align:center;
+    background-color:rgb(150,190,250);
+}

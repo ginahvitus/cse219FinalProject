@@ -7,7 +7,7 @@ import static ssm.StartupConstants.PATH_SLIDE_SHOW_IMAGES;
 import ssm.model.SlideShowModel;
 import ssm.view.SlideShowMakerView;
 
-
+//this 
 /**
  * This controller provides responses for the slideshow edit toolbar, which
  * allows the user to add, remove, and reorder slides.

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title></title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- LINK TO OUR CSS AND THE GOOGLE FONT CSS -->
+	<link href="./css/slideshow_maker.css" rel="stylesheet" type="text/css"> 
+        <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+	
+	<!-- LINK TO OUR JavaScript FILE AND JQuery -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="./js/SlideshowMaker.js"></script>
+	
+	<!-- ONCE THE PAGE FULLY LOADS INITIALIZE THE SLIDESHOW -->
+        <script>
+            $(document).ready()
+            {
+                initSlideshow();
+            }
+        </script>
+
+
+    </head>
+    <body>
+	<div id="content">
+	    <div id="slideshow_title"></div>
+	    <img id="slide_img" />
+	    <div id="slide_caption"></div>
+	    <div id="slideshow_controls">
+		<input id="previous_button" type="image" src="./icons/Previous.png" onclick="processPreviousRequest()">
+		<input id="play_pause_button" type="image" src="./icons/Play.png" onclick="processPlayPauseRequest()">
+		<input id="next_button" type="image" src="./icons/Next.png" onclick="processNextRequest()">
+	    </div>
+	</div>
+    </body>
+</html>
